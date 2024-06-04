@@ -7,8 +7,8 @@
 <meta name="subject" content="이솝, Aesop" />
 <meta name="description" content="이솝, Aesop" />
 <meta name="keywords" content="핸드크림, cosmetic, 화장품, 보습, 이솝핸드크림" />
-<link rel="icon" href="${path0}/resources/images/favicon.png" />
-<link rel="shortcut icon" href="${path0}/resources/images/favicon.png" />
+<link rel="icon" href="${path0}/resources/images/favicon2.png" />
+<link rel="shortcut icon" href="${path0}/resources/images/favicon2.png" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Aesop" />
 <meta property="og:description" content="화장품, 핸드크림, 조화로운 가치, 최첨단, 세계 최고의, 아름다운" />

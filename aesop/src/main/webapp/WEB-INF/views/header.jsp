@@ -2,13 +2,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri = "http://java.sun.com/jsp/jstl/functions"%>
-<%@ page import="java.util.*, java.lang.*" %>
-<%@ page import="java.text.*, java.net.InetAddress" %>
+
 <c:set var="path1" value="${pageContext.request.contextPath }" />
 
 <div id="header_wrap">
     <div id="logo_wrap">
-        <div id="logo_imgwrap"><img src="${path1}/images/main/image_logo.png" alt="로고"></div>
+        <div id="logo_imgwrap"><img src="${path1}/resources/images/main/image_logo.png" alt="로고"></div>
     </div>
     <nav id="gnb">
         <ul id="mainmenu">

@@ -4,8 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri = "http://java.sun.com/jsp/jstl/functions"%>
-<%@ page import="java.util.*, java.lang.*" %>
-<%@ page import="java.text.*, java.net.InetAddress" %>
+
 <c:set var="path1" value="${pageContext.request.contextPath }" />
 <!DOCTYPE html>
 <html lang="ko">
@@ -41,27 +40,27 @@
 	          </div>
 	          <div class="owl-carousel owl-theme">
 	              <div class="item" id="product1">
-	                  <div class="pcontainer"><img src="${path1}/images/main/image_product1.png" alt="제품1"></div>
+	                  <div class="pcontainer"><img src="${path1}/resources/images/main/image_product1.png" alt="제품1"></div>
 	                  <div class="pname">product1</div>
 	              </div>
 	              <div class="item" id="product2">
-	                  <div class="pcontainer"><img src="${path1}/images/main/image_product2.png" alt="제품2"></div>
+	                  <div class="pcontainer"><img src="${path1}/resources/images/main/image_product2.png" alt="제품2"></div>
 	                  <div class="pname">product2</div>
 	              </div>
 	              <div class="item" id="product3">
-	                  <div class="pcontainer"><img src="${path1}/images/main/image_product3.png" alt="제품3"></div>
+	                  <div class="pcontainer"><img src="${path1}/resources/images/main/image_product3.png" alt="제품3"></div>
 	                  <div class="pname">product3</div>
 	              </div>
 	              <div class="item" id="product4">
-	                  <div class="pcontainer"><img src="${path1}/images/main/image_product4.png" alt="제품4"></div>
+	                  <div class="pcontainer"><img src="${path1}/resources/images/main/image_product4.png" alt="제품4"></div>
 	                  <div class="pname">product4</div>
 	              </div>
 	              <div class="item" id="product5">
-	                  <div class="pcontainer"><img src="${path1}/images/main/image_product5.png" alt="제품5"></div>
+	                  <div class="pcontainer"><img src="${path1}/resources/images/main/image_product5.png" alt="제품5"></div>
 	                  <div class="pname">product5</div>
 	              </div>
 	              <div class="item" id="product6">
-	                  <div class="pcontainer"><img src="${path1}/images/main/image_product6.png" alt="제품6"></div>
+	                  <div class="pcontainer"><img src="${path1}/resources/images/main/image_product6.png" alt="제품6"></div>
 	                  <div class="pname">product6</div>
 	              </div>
 	          </div>
@@ -88,7 +87,7 @@
 	          </script>
 	          </section>
 	          <section class="page" id="page3">
-	              <div class="imagewrap"><img src="images/main/image_main_product9.png" alt="엘리"></div>
+	              <div class="imagewrap"><img src="${path1}/resources/images/main/image_main_product9.png" alt="엘리"></div>
 	              <div>
 	                  <div id="maintext2">
 	                      <p id="maintext2-1" class="text-ofl" style="display: inline;">Vitamin-enriched</p>
@@ -125,7 +124,7 @@
 	              </div>
 	              
 	              <div id="videoframe">
-	                  <video src="video/Aesop_Resurrection_2023_Web_Athenaeum_Primary_Mid_Desktop_1920x1080px.mp4" autoplay muted loop></video>
+	                  <video src="${path1}/resources/video/Aesop_Resurrection_2023_Web_Athenaeum_Primary_Mid_Desktop_1920x1080px.mp4" autoplay muted loop></video>
 	              </div>
 	              <div id="maintext6">
 	                  <p class="text-ofl">A sincere interest in intelligent and </p>
@@ -144,12 +143,12 @@
 	                  <a href=""><div class="round-button" style="margin-left: 100px;">contact us</div></a>
 	              </div>
 	              <div>
-	                  <div class="imagewrap" style="border-left: 1px solid #252525;"><img src="images/main/image_main_gift.png" alt="기업구매"></div>
+	                  <div class="imagewrap" style="border-left: 1px solid #252525;"><img src="${path1}/resources/images/main/image_main_gift.png" alt="기업구매"></div>
 	              </div>
 	          </section>
 	          <section class="page" id="page6">
 	              <div>
-	                  <div class="imagewrap"><img src="images/main/image_main_location.png" alt="스토어"></div>
+	                  <div class="imagewrap"><img src="${path1}/resources/images/main/image_main_location.png" alt="스토어"></div>
 	              </div>
 	              <div>
 	                  <div class="maintext7">스토어 로케이터</div>
