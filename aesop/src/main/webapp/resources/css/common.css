@@ -12,9 +12,10 @@ li { list-style: none;}
 a { text-decoration: none; color: #252525;}
 .content { 
     width: 100vw; 
-    height: 100vh; 
     overflow-x: hidden; 
     background-color: #FFFEF2;
+    overflow-y: scroll;
+    z-index: 1;
 }
 
 .text-ofl { 
@@ -28,7 +29,7 @@ a { text-decoration: none; color: #252525;}
     font-family: "Playfair Display", serif;
     font-style: italic;
     font-size: 35px;
- }
+}
  
 #header_wrap { 
     display: flex; 
@@ -36,13 +37,30 @@ a { text-decoration: none; color: #252525;}
     height: 100px; 
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    background: #c08367;
+    background-color: transparent;
+}
+
+.header_wrapper {
+    width: 100%;
+    z-index: 999;
+    height: 100px; 
+    top: 0px;
     transition: top 0.2s ease-in-out;
+    position: fixed;
 }
 
 .nav-up {
-top: -100px; // 헤더 높이와 같게 
+    top: -100px; 
+    transition: 0.7s;
+}
+
+.nav-down {
+    background-color: #d69975; /* 원하는 배경색 지정 */
+}
+
+.transparent {
+    background: transparent;
+    transition: 0.5s;
 }
 
 #logo_wrap { 
